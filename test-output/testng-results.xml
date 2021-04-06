@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67668" started-at="2021-04-02T18:10:24Z" finished-at="2021-04-02T18:11:32Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunners.TestRunner@6293abcc]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="67668" started-at="2021-04-02T18:10:24Z" finished-at="2021-04-02T18:11:32Z">
+      <class name="TestRunners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunners.TestRunner@6293abcc]" name="setUpClass" is-config="true" duration-ms="198" started-at="2021-04-02T23:40:24Z" finished-at="2021-04-02T23:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunners.TestRunner@6293abcc]" name="feature" duration-ms="67132" started-at="2021-04-02T23:40:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-04-02T23:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create user in mailchimp application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunners.TestRunner@6293abcc]" name="tearDownClass" is-config="true" duration-ms="270" started-at="2021-04-02T23:41:31Z" finished-at="2021-04-02T23:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunners.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
